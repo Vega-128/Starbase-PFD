@@ -1,0 +1,95 @@
+:Dz=(:C*A+:F*B+:I*C)>0 :zD=1-2*:DZ :di=d+e-:DZ-d-e goto++:w%R+1 
+:2=(:B*A+:E*B+:H*C)*:zD+12 :9=(:A*a+:D*B+:G*C)*-:zD+13 goto++:w%R+1
+:j=L :X=:U :Y=:V ::=f :X=:9 :Y=:2 :u=:x :V=:y ::=:di :k=h goto++:w%R+1
+d="z0" e=".1" f=" " R=3 A=0 C=0 B=8 h=60 L=1  goto 1 
+
+//array 4
+<-------------------------------------------------------------------->
+
+
+:Cz=(:C*A+:F*B+:I*C)>0 :zC=1-2*:CZ :ci=d+e-:CZ-d-e goto++:t%R+1 
+:7=(:B*A+:E*B+:H*C)*:zC+12 :6=(:A*a+:D*B+:G*C)*-:zC+13 goto++:t%R+1
+:j=L :X=:R :Y=:S ::=f :X=:6 :Y=:7 :r=:x :s=:y ::=:ci :k=h goto++:T%R+1
+d="O0" e=".1" f=" " R=3 A=0 C=5.14 B=6.13 h=60 L=1  goto 1 
+
+//array 3
+<-------------------------------------------------------------------->
+
+
+
+:Bz=(:C*A+:F*B+:I*C)>0 :zB=1-2*:BZ :bi=d+e-:BZ-d-e goto++:q%R+1 
+:4=(:B*A+:E*B+:H*C)*:zB+12 :3=(:A*a+:D*B+:G*C)*-:zB+13 goto++:q%R+1
+:j=L :X=:o :Y=:p ::=f :X=:3 :Y=:4 :o=:x :p=:y ::=:bi :k=h goto++:q%R+1
+d="O0" e=".1" f=" " R=3 A=3.46 C=6 B=4 h=60 L=1  goto 1 
+
+//array 2
+<-------------------------------------------------------------------->
+
+
+
+:Az=(:C*A+:F*B+:I*C)>0 :za=1-2*:AZ :ai=d+e-:AZ-d-e goto++:n%R+1 
+:1=(:B*A+:E*B+:H*C)*:zA+12 :0=(:A*a+:D*B+:G*C)*-:za+13 goto++:n%R+1
+:j=L :X=:l :Y=:m ::=f :X=:0 :Y=:1 ::=:ai :l=:x :m=:y :k=h goto++:n%R+1
+d="O0" e=".1" f=" " R=3 A=6.93 C=0 B=4 h=60 L=1  goto 1
+
+//array 1
+<-------------------------------------------------------------------->
+
+
+
+
+an array is 3 chips wich have the same code
+every yolol chip in the array has to start on line 4
+
+
+
+input globals:
+Hx      -> A
+Ix      -> B
+Jx      -> C
+Hy      -> D
+Iy      -> E
+Jy      -> F
+Hz      -> G
+Iz      -> H
+Jz      -> I
+adiWait -> Chipwait
+
+
+output globals:
+X -> ADIcx
+Y -> ADIcy
+: -> ADIi
+J -> ADIl
+K -> ADIh
+
+
+internal globals:
+
+L M N 1 0 az za ai
+O P Q 3 4 bz zb bi
+R S T 6 7 cz zc ci
+U V W 2 9 dz zd di
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
