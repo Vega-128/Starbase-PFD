@@ -11,4 +11,4 @@ these things are included in the .fbe file.
 
 # Considerations when installing the module
 
-the groups in the rack need to stay together in order to have propper network isolation.
+the groups in the rack need to stay together in order to have proper network isolation.
