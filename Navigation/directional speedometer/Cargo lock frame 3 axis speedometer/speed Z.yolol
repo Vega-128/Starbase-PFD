@@ -1,0 +1,20 @@
+r=:ZA s=:ZB a=59.937 c=150 :SP_R=1 goto1+:RFA
+z=a*(:ZA-r) x=a*(:ZB-s) :SPD_Z=z*(z<c)*(z>0)-x*(x<c)*(x>0) goto1+:SP_R
+goto1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

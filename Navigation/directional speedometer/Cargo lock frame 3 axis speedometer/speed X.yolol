@@ -1,0 +1,20 @@
+r=:XA s=:XB a=59.937 c=150 :SP_R=1 goto1+:RFA
+z=a*(:XA-r) x=a*(:XB-s) :SPD_X=z*(z<c)*(z>0)-x*(x<c)*(x>0) goto1+:SP_R
+goto1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

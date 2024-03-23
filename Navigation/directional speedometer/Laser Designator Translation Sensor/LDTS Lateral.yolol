@@ -1,0 +1,20 @@
+:SA=1 m=:fpk :SI="SecretCodeHere"
+:RX=:fpk*:SD*SIN :SH :RY=:fpk*:SD*SIN :SV goto2*:SA
+goto1
+
+// to not boresight it paste the module hit Q rotate it as few times
+// place it on a beam with the snap tool
+
+
+
+
+
+
+
+
+
+
+
+
+
+//By Thaccus and DarkyShadow
