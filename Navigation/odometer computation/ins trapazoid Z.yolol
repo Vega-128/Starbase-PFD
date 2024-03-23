@@ -1,0 +1,20 @@
+q=:TM2 r=q S=q-r goto3*:IN
+goto4*:IN+1
+A=:JZ*:RZ+:IZ*:RY+:HZ*:RX q=:TM2 :Az+=A*(q-r+s)/2 S=q-r r=q goto3*:IN
+goto2
+A=:JZ*:RZ+:IZ*:RY+:HZ*:RX :Az+=A*(1+:ERx)*(.2)/2  goto5*:IN
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

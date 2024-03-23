@@ -1,0 +1,20 @@
+goto4-1*:copy-2*:Paste
+:WcmX=:wx :WcmY=:wy :WcmZ=:wz :WcmN=:clipboard :compassDEST=-1 goto1
+:wx=:WcmX :wy=:WcmY :wz=:WcmZ :clipboard=:WcmN :compassDEST=-1 goto1
+:compassDEST=-1 goto1
+
+
+
+//optional chip unless usied with copy paste system
+
+
+
+
+
+
+
+
+
+
+
+

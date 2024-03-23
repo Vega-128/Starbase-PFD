@@ -1,0 +1,20 @@
+goto1+:ma
+ i=3 goto6-:sig*3
+:wt=1 :AA=(i>1)  goto3+((i--)==0)
+i++ goto5-:ga*(i<45)+:spd>0.1
+:cl=(i>10)*2 :ma2=0 :wt=0 :in=1  goto1
+goto1+:ma*5
+
+
+
+
+
+
+
+
+
+
+
+
+
+

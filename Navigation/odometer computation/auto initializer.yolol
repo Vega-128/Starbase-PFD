@@ -1,0 +1,20 @@
+goto 1+(:gyr=="N/A")
+:tmr=0 :gc=1 i=0 :cl=3 :wt=1 :in=0
+
+:tmr=1 :in=1 goto10-(:sz)*5
+i++ goto5+(i>4) //delay so we can be shure isan initialized
+i=3 goto 7+(:Sig==0)*3
+:mov=0 :AA=(i>1)  goto7+((i--)==0)
+i++ goto9-:ga*(i<45)+:spd>0.1
+:ofst=1 :mov=100 :cl=(i>10)*2 :wt=0 :in=0  goto11
+:cl=3 :wt=0 :in=0  goto11
+
+:in=1 goto1
+
+
+
+
+
+
+
+

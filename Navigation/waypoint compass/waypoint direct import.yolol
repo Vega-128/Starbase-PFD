@@ -1,0 +1,20 @@
+ :wptCango=3 w=:Navigation m=" " goto1+(w!="Paste waypoint here")
+a=:Navigation-"\nX:"-"\nY:"-"\nZ:" q=a i=0 o=0 s="98743" j=1
+c=a c-=a-- d=5*(c>4)+2*(s>(s-c)) d+=c>d d+=c>d o+=d*j j*=10 goto3+c<0
+v=1 if c=="-" then v=-1 if a!="" then a--end end i++ j=1 m+="."
+Z=Y Y=X X=o*v o=0 n=""+a  :Navigation="loading"+m-"0"  goto3+3*(i>2)
+:wcmx=X :Wcmy=Y :Wcmz=Z :AUTOPILOT_DESTINATION=(((q-x)-y)-z)-"   "
+:wptCango=2  :Navigation="Ready\n"+w m=:Navigation
+goto 8+(m!=:navigation)+2*:WPTgo
+m=" " goto1+12*(:navigation=="")
+:Navigation="Navigating\n"+w m=:Navigation
+goto 7+(m!=:navigation)+4*:WPTgo
+m=" " goto1+12*(:navigation=="")
+:Navigation="Paste waypoint here" :WPTgo=0 GOTO1
+
+
+
+
+
+
+
